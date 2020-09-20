@@ -1,0 +1,363 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2,h3,h4,h5,p,span,a,li,input,button{
+	font-family: 'Playfair Display', serif;
+}
+
+h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/*header part css*/
+
+.header{
+	width: 100%;
+	
+}
+.navbar{
+	margin: 25px 0;
+}
+.nav-item{
+	margin-left: 60px;
+
+}
+
+.nav-link{
+	color: #626262 !important;
+}
+
+.nav-link:hover{
+	color: black !important;
+}
+
+/*first blog css*/
+
+.firstblog{
+	width: 100%;
+	
+}
+
+.describtion{
+	margin: 65px;
+}
+
+.firstblog h6{
+	font-size: 15px;
+    color: #c0c0c0 !important;
+    margin-bottom: 10px;
+}
+
+.describtion h1{
+	margin: 24px 0px 20px 0px;
+    color: #626262 !important;
+}
+.describtion p{
+	line-height: 27px;
+    font-size: 15px;
+    color: #626262;
+}
+
+.describtion .heading{
+	margin: 39px 0px;
+}
+
+/*secondpart */
+
+.secondpart{
+	width: 100%;
+	
+}
+
+.image2{
+	margin: 50px 10px 20px 65px;
+}
+.image3{
+	margin: 50px 65px 20px 10px;
+}
+
+.secondpart .para h6{
+	margin-top: 37px;
+	font-size: 15px;
+    color: #c0c0c0 !important;
+}
+
+.secondpart .para h1{
+	font-size: 34px;
+	color: #626262 !important;
+	margin: 22px 0;
+}
+.secondpart .para p{
+	line-height: 27px;
+    font-size: 15px;
+    color: #626262;
+}
+
+
+/*third part*/
+
+.thirdpart{
+	width: 100%;
+	height: 380px;
+	background: #f0f0f0;
+	margin-top: 105px;
+	text-align: center;
+}
+
+.thirdpart h1{
+	text-align: center;
+	margin: 87px 0;
+	color: #626262 !important;
+	font-weight: 400;
+}
+
+.thirdpart form input{
+	padding: 20px 0;
+    width: 460px;
+    border: none;
+    background: transparent;
+    border-bottom: 3px solid black;
+}
+form{
+	position: relative;
+}
+
+.thirdpart a{
+	color: black;
+	font-size: 20px;
+}
+
+.thirdpart i{
+    position: absolute;
+    top: 28px;
+    right: 334px;
+}
+
+form input::placeholder{
+	font-size: 17px !important;
+}
+
+/*fourthpart*/
+
+.fourthpart{
+	width: 100%;
+	margin-top: 60px;
+}
+
+.image2{
+	margin: 50px 10px 20px 65px;
+}
+.image3{
+	margin: 50px 65px 20px 10px;
+}
+
+.fourthpart .para h6{
+	margin-top: 37px;
+	font-size: 15px;
+    color: #c0c0c0 !important;
+}
+
+.fourthpart .para h1{
+	font-size: 34px;
+	color: #626262 !important;
+	margin: 22px 0;
+}
+.fourthpart .para p{
+	line-height: 27px;
+    font-size: 15px;
+    color: #626262;
+
+}
+
+
+
+.loadmore{
+	margin: 80px 0 40px 0;
+	text-align: center;
+}
+
+.button{
+	padding: 15px 36px;
+    border: none;
+    outline: none;
+    border-radius: 13px;
+    background: transparent;
+    border: 1px solid black;
+    color: #626262;
+}
+
+
+
+.footer{
+	width: 100%;
+    height: 100px;
+    background: #f0f0f0;
+    margin-top: 53px;
+    padding: 39px;
+}
+
+.footer .left ul{
+	margin-left: 68px;
+}
+
+.footer ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+
+.left{
+	text-align: left;
+}
+
+.footer .left ul li a{
+ color: #626262;
+}
+
+.footer .left ul li{
+	margin-right: 24px;
+}
+
+
+.right{
+	text-align: right;
+	
+}
+
+.footer .right ul{
+	margin-right: 68px;
+}
+
+.footer .right ul li a{
+	color: #626262;
+}
+
+.footer .right ul li{
+	margin-left: 9px;
+}
+
+
+
+
+/*********************************Media Query***************************************/
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  //CSS
+  
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.thirdpart i {
+   
+    right: 128px;
+  
+}
+
+.fourthpart {
+    margin-top: 10px;
+}
+
+.footer .left ul {
+    margin-left: 29px;
+}
+
+.footer .right ul {
+    margin-right: 30px;
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .describtion{
+ 	margin: 20px;
+ }
+
+ .describtion h1{
+ 	font-size: 32px;
+ }
+
+ .image2 {
+    margin: 1px 10px 20px 7px;
+}
+
+.secondpart .para h6 {
+    margin-top: 17px;
+}
+
+.secondpart .para h1{
+	font-size: 31px;
+}
+
+.image3 {
+    margin: 4px 7px 20px 10px;
+}
+
+.thirdpart {
+    margin-top: 5px;
+}
+
+.thirdpart h1 {
+    font-size: 27px;
+    margin: 56px 0;
+    font-weight: 600;
+}
+
+.thirdpart {
+    height: 283px;
+ }
+
+.thirdpart i {
+    top: 22px;
+    right: 9px
+}
+
+.thirdpart form input {
+    padding: 22px 0;
+    width: 306px;
+}
+
+
+.fourthpart {
+    margin-top: 36px;
+}
+
+.fourthpart .para h6 {
+    margin-top: 23px;
+}
+
+.loadmore {
+    margin: 26px 0 30px 0;
+}
+
+.footer{
+	margin-top: 42px;
+	padding: 23px;
+}
+
+}
